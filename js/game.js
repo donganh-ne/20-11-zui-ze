@@ -746,7 +746,7 @@ function iHeartYou(){
 	if(window.location.hash){
 		vtext.textContent = encryptString(decodeURIComponent(window.location.hash).substring(1));
 	}else{
-		vtext.textContent = "a lovely message from me to you <3";
+		vtext.textContent = "20/11 zui zẻ nhoa, típ tục cố gắng hơn nha gái, ngủ sớm zoooo <3";
 	}
 
 	setTimeout(function(){
@@ -756,12 +756,12 @@ function iHeartYou(){
 	// After 9 seconds, swipe down to CREDITS.
 	// No replay. Fuck it.
 	
-	setTimeout(function(){
-		document.getElementById("whole_container").style.top = "-200%";
-	},7300);
-	setTimeout(function(){
-		yourMessage.focus();
-	},8500);
+	// setTimeout(function(){
+	// 	document.getElementById("whole_container").style.top = "-200%";
+	// },7300);
+	// setTimeout(function(){
+	// 	yourMessage.focus();
+	// },8500);
 
 }
 
